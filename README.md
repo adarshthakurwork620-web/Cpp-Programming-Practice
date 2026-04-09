@@ -40,6 +40,6 @@ To build strong problem-solving skills and prepare for technical interviews and 
 
 Adarsh Thakur | B.Tech CSE (Data Analytics)
 
-----
+---
 
 ⭐ Star this repo if it helped you!
