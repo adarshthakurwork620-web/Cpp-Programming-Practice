@@ -13,7 +13,7 @@ int swap_value(int a , int b)
 int main()
 {
     int a,b;
-    cout<<"Enter a number:";
+    cout<<"Enter number:";
     cin>>a>>b;
     cout<<"before call:"<<a<<" "<<b<<"\n";
     swap_value(a,b);
