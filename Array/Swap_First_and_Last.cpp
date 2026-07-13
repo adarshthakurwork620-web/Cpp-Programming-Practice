@@ -12,6 +12,17 @@ int main()
         cout<<"Element "<<i <<":";
         cin>>arr[i];
     }
+    cout<<"1st array: ";
+    for (int i = 1; i <= n; i++)
+    {
+       cout<<arr[i]<<"\t";
+    }
+    cout<<"\n"<<"Enter "<<n<<" integers:"<<"\n";
+    for (int i = 1; i <= n; i++)
+    {
+        cout<<"Element "<<i <<":";
+        cin>>arr[i];
+    }
     cout<<"Array BEFORE swap: ";
     for (int i = 1; i <= n; i++)
     {
@@ -19,16 +30,16 @@ int main()
     }
 
     cout<<"\n"<<"Array AFTER swap: ";
+        temp=arr[3];
+        arr[3]=arr[4];
+        arr[4]=temp;
     
     for (int i = 1; i <= n; i++)
     {
-        temp=arr[1];
-        arr[1]=arr[n];
-        arr[n]=temp;
-
-        // arr[i]=arr[i]+arr[n];
-        // arr[n]=arr[i]-arr[n];
-        // arr[i]=arr[i]-arr[n];
+        // arr[3]=arr[3]+arr[4];
+        // arr[4]=arr[3]-arr[4];
+        // arr[3]=arr[3]-arr[4];
         cout<<arr[i]<<"\t";
     }
-}    
+}   
+ 
